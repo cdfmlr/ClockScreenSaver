@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #55b9f3;
+}
+
+.clock {
+    text-align: center;
+    padding: 25px;
+    border-radius: 36px;
+    background: #55b9f3;
+    box-shadow:  8px 8px 16px #489dcf, 
+                 -8px -8px 16px #62d5ff;
+}
+
+.time {
+    color: beige;
+    font-size: 128px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.sentence {
+    margin: 8px;
+    padding: 4px;
+
+    color: rgb(247, 247, 234);
+    font-family: 'STBaoliSC-Regular', Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+
+    border-radius: 36px;
+    background: #55b9f3;
+    box-shadow: inset 8px 8px 16px #4290be, 
+                inset -8px -8px 16px #68e2ff;
+}

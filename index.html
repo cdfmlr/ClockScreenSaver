@@ -1,0 +1,22 @@
+<html>
+
+<head>
+    <title>Clock</title>
+    <meta name="description" content="A neumorphism clock with random sentences.">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="clock.js" defer></script>
+    <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8" defer></script>
+</head>
+
+<body>
+    <div id="app">
+        <div class="clock">
+            <div class="sentence"><span id="jinrishici-sentence"> </span></div>
+            <div class="time"> {{ hours }} : {{ minutes }}</div>
+
+        </div>
+    </div>
+</body>
+
+</html>
