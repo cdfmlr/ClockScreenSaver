@@ -34,3 +34,9 @@ body {
     box-shadow: inset 8px 8px 16px #4290be, 
                 inset -8px -8px 16px #68e2ff;
 }
+
+footer {
+    margin: 8px;
+    text-align: center;
+    color: #55b9f3;
+}
