@@ -2,6 +2,8 @@
 
 A neumorphism clock with random sentences.
 
+(There is another version with frosted glass effects & random beautiful wallpapers, see the [wallpaper]() branch)
+
 It is built as a screen saver which works with the amazing [mac WebviewScreenSaver](https://github.com/agologan/webviewscreensaver).
 
 ## Acknowledgments
