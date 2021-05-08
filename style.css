@@ -6,10 +6,15 @@ body {
     flex-direction: column;
      
     /*二次元动漫*/
-    /* background-image: url("https://api.ixiaowai.cn/api/api.php"); */
+    background-image: url("https://api.ixiaowai.cn/api/api.php");
  
     /*高清壁纸*/
-    background-image: url("https://api.ixiaowai.cn/gqapi/gqapi.php");
+    /* background-image: url("https://api.ixiaowai.cn/gqapi/gqapi.php"); */
+}
+
+/* 隐藏滚动条*/
+::-webkit-scrollbar {
+    display: none;
 }
 
 /* spacer 拿来控制时间面板的垂直位置 */
@@ -21,6 +26,12 @@ body {
     text-align: center;
     padding: 25px;
     border-radius: 36px;
+
+    /* 固定在底部 */
+    position: fixed;
+    bottom: 32px;
+    transform: translateX(-50%);
+
     /* background: #55b9f3;
     box-shadow:  8px 8px 16px #489dcf, 
                  -8px -8px 16px #62d5ff; */
@@ -58,6 +69,11 @@ body {
 }
 
 footer {
+    /* 固定在底部 */
+    position: fixed;
+    bottom: 0px;
+    transform: translateX(-50%);
+
     margin: 8px;
     text-align: center;
     color: #ffffff;
