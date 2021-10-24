@@ -71,7 +71,7 @@ body {
 footer {
     /* 固定在底部 */
     position: fixed;
-    bottom: 0px;
+    bottom: 12px;
     transform: translateX(-50%);
 
     margin: 8px;
