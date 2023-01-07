@@ -2,7 +2,7 @@
 
 A 「glassmorphism」 clock with random sentences on random wallpapers.
 
-It is built as a screen saver which works with the amazing [mac WebviewScreenSaver](https://github.com/agologan/webviewscreensaver).
+It is built as a screen saver which works with the amazing [mac WebviewScreenSaver](https://github.com/liquidx/webviewscreensaver).
 
 ## Acknowledgments
 

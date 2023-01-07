@@ -6,10 +6,10 @@ body {
     flex-direction: column;
      
     /*二次元动漫*/
-    background-image: url("https://api.ixiaowai.cn/api/api.php");
+    /* background-image: url("https://api.ixiaowai.cn/api/api2.php"); */
  
     /*高清壁纸*/
-    /* background-image: url("https://api.ixiaowai.cn/gqapi/gqapi.php"); */
+    background-image: url("https://api.ixiaowai.cn/gqapi/gqapi2.php");
 
     background-position: center;
     background-repeat: no-repeat;
