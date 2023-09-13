@@ -6,10 +6,10 @@ body {
     flex-direction: column;
      
     /*二次元动漫*/
-    /* background-image: url("https://api.ixiaowai.cn/api/api2.php"); */
+    /* background-image: url("https://tuapi.eees.cc/api.php?category=dongman&type=302"); */
  
     /*高清壁纸*/
-    background-image: url("https://api.ixiaowai.cn/gqapi/gqapi2.php");
+    background-image: url("https://source.unsplash.com/random/1280x800?Wallpaper");
 
     background-position: center;
     background-repeat: no-repeat;
